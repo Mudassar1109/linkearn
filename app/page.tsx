@@ -5,6 +5,7 @@ import { HowItWorksSection } from "@/components/how-it-works/how-it-works-sectio
 import { MarketplacePreviewSection } from "@/components/marketplace-preview/marketplace-preview-section";
 import { LeaderboardPreviewSection } from "@/components/leaderboard-preview/leaderboard-preview-section";
 import { FaqSection } from "@/components/faq/faq-section";
+import { FooterSection } from "@/components/footer/footer-section";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <MarketplacePreviewSection />
       <LeaderboardPreviewSection />
       <FaqSection />
+      <FooterSection />
     </>
   );
 }
