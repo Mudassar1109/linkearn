@@ -4,6 +4,7 @@ import { FeaturesSection } from "@/components/features/features-section";
 import { HowItWorksSection } from "@/components/how-it-works/how-it-works-section";
 import { MarketplacePreviewSection } from "@/components/marketplace-preview/marketplace-preview-section";
 import { LeaderboardPreviewSection } from "@/components/leaderboard-preview/leaderboard-preview-section";
+import { FaqSection } from "@/components/faq/faq-section";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <HowItWorksSection />
       <MarketplacePreviewSection />
       <LeaderboardPreviewSection />
+      <FaqSection />
     </>
   );
 }
