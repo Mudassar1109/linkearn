@@ -1,0 +1,23 @@
+export enum MarketplaceStatus {
+  DRAFT = "DRAFT",
+  PENDING = "PENDING",
+  APPROVED = "APPROVED",
+  REJECTED = "REJECTED",
+  SOLD = "SOLD",
+  ARCHIVED = "ARCHIVED",
+}
+
+export enum OrderStatus {
+  PENDING = "PENDING",
+  PAYMENT_PENDING = "PAYMENT_PENDING",
+  PROCESSING = "PROCESSING",
+  COMPLETED = "COMPLETED",
+  CANCELLED = "CANCELLED",
+  DISPUTED = "DISPUTED",
+  REFUNDED = "REFUNDED",
+}
+
+export enum Currency {
+  USD = "USD",
+  PKR = "PKR",
+}

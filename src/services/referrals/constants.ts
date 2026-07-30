@@ -1,0 +1,4 @@
+export const DEFAULT_REFERRAL_REWARD = 200;
+export const FIRST_WITHDRAW_BONUS = 100;
+export const FIRST_MARKETPLACE_BONUS = 150;
+export const MAX_REFERRALS_PER_DAY = 50;
