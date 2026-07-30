@@ -104,6 +104,16 @@
   50% { transform: translateY(-7px); }
 }
 
+@keyframes shimmer-x {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 200% 0%; }
+}
+
+@keyframes shimmer-y {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 0% 200%; }
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
